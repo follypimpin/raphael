@@ -12,4 +12,18 @@ let mix = require('laravel-mix');
  */
 
 mix.js('resources/assets/js/app.js', 'public/js')
-   .sass('resources/assets/sass/app.scss', 'public/css');
+   .sass('resources/assets/sass/app.scss', 'public/css')
+   .browserSync({
+       host:'192.168.10.10',
+       proxy: 'homestead.local',
+       open:'false',
+       browser: 'google-chrome',
+       files: [
+           './**/*.css',
+           './app/**/*',
+           './config/**/*',
+           './resources/views/**/*',
+           './routes/**/*'
+       ]
+});
+

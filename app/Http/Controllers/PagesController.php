@@ -26,8 +26,5 @@
             return view('demo');
         }
         
-        public function homePage()
-        {
-            return view('homePage');
-        }
+      
     }
