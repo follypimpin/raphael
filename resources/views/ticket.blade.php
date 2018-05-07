@@ -1,11 +1,9 @@
 @extends('layouts.mainlayout')
-@section('title','About')
+@section('title','Ticket')
 @section('content')
-
     <div class="row">
         <div class="col">
-            About Us
+            List of Tickets
         </div>
     </div>
-
 @endsection

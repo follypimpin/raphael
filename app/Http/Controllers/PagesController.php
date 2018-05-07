@@ -18,13 +18,9 @@
         
         public function contact()
         {
-            return view('contact');
+            return view('modals.create');
         }
         
-        public function demo()
-        {
-            return view('demo');
-        }
-        
+       
       
     }
