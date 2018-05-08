@@ -1,6 +1,7 @@
 @extends('layouts.mainlayout')
 @section('title','Contact')
 @section('content')
+
     <form>
         <div>
             <h5>Submit a new Ticket</h5>
