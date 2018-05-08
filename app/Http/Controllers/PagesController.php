@@ -20,7 +20,12 @@
         {
             return view('modals.create');
         }
-        
-       
-      
+    
+        public function login()
+        {
+            return view('auth.login');
+        }
+    
+    
+    
     }

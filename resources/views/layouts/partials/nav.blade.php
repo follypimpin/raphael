@@ -21,12 +21,17 @@
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Member
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Log In</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Register</a>
+                        <!-- Authentication Links -->
 
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                            <a class="dropdown-item" href="{{ url('/login') }}">Log In</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="{{ url('/register') }}">Register</a>
+
+                                <a class="dropdown-item" href="{{ url('/log_out') }}">Log Out</a>
                         </div>
+
                     </li>
 
                 </ul>
